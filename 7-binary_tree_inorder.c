@@ -3,7 +3,7 @@
 /**
  * binary_tree_inorder - goes through a binary tree using in-order traversal
  * @tree: pointer to the root node of the tree to traverse
- * @func: function to call for each node. 
+ * @func: function to call for each node.
  * Return: void
  */
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
